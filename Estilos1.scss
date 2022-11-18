@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.SuperContainer {
+    div {
+        border: 1px solid black;
+        width: 100%;
+    }
+    
+    .Navigation {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        div {
+            padding-bottom: 40px;
+        }
+    }
+
+    .DataBar1 {
+        background: linear-gradient(126deg, #24335b 23%, #004373 77%);
+        padding-bottom: 50px;
+    }
+}
